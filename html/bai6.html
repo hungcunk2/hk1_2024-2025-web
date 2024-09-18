@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Electronics Registration Form</title>
+    <style>
+        body {
+            background-color: white; /* Nền ngoài màu trắng */
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #73c9eb; /* Màu xanh dương nhạt cho nền form */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 100px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-group input[type="radio"], .form-group input[type="checkbox"] {
+            width: auto;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .buttons input {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <img src="jackson_logo.png" alt="Jackson Electronics">
+        <h1>Jackson Electronics</h1>
+        <h2>Registration Form</h2>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name">
+        </div>
+        <div class="form-group">
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name">
+        </div>
+        <div class="form-group">
+            <label for="address1">Address #1:</label>
+            <input type="text" id="address1" name="address1">
+        </div>
+        <div class="form-group">
+            <label for="address2">Address #2:</label>
+            <input type="text" id="address2" name="address2">
+        </div>
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        </div>
+        <div class="form-group">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+        </div>
+        <div class="form-group">
+            <label for="zip">Zip:</label>
+            <input type="text" id="zip" name="zip">
+        </div>
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="United States">United States</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="product">Product:</label>
+            <select id="product" name="product">
+                <option value="ScanMaster">ScanMaster</option>
+                <!-- Add more products as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="date-purchased">Date Purchased:</label>
+            <input type="date" id="date-purchased" name="date-purchased">
+        </div>
+        <div class="form-group">
+            <label for="serial">Serial #:</label>
+            <input type="text" id="serial" name="serial">
+        </div>
+        <div class="form-group">
+            <label>Used for:</label>
+            <input type="radio" id="home" name="used-for" value="Home">
+            <label for="home">Home</label>
+            <input type="radio" id="business" name="used-for" value="Business">
+            <label for="business">Business</label>
+            <input type="radio" id="government" name="used-for" value="Government">
+            <label for="government">Government</label>
+            <input type="radio" id="educational" name="used-for" value="Educational Institution">
+            <label for="educational">Educational Institution</label>
+            <input type="radio" id="other-used" name="used-for" value="Other">
+            <label for="other-used">Other</label>
+        </div>
+        <div class="form-group">
+            <label>System (check all that apply):</label>
+            <input type="checkbox" id="windows" name="system" value="Windows">
+            <label for="windows">Windows</label>
+            <input type="checkbox" id="macintosh" name="system" value="Macintosh">
+            <label for="macintosh">Macintosh</label>
+            <input type="checkbox" id="unix" name="system" value="UNIX">
+            <label for="unix">UNIX</label>
+            <input type="checkbox" id="other-system" name="system" value="Other">
+            <label for="other-system">Other</label>
+        </div>
+        <div class="form-group">
+            <label for="comments">Comments?</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Click to register">
+            <input type="button" value="Click to cancel">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+    <form action="/submit_form" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Your message:</legend>
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" value="Example Cafe"><br><br>
+
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+            <label for="file">Attach File:</label>
+            <input type="file" id="file" name="file"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>How you found us:</legend>
+            <label for="source">How did you hear of us:</label>
+            <select id="source" name="source">
+                <option value="google">Google</option>
+                <option value="friend">Friend</option>
+                <option value="advertisement">Advertisement</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                Ensure this box is checked if you would like to receive email updates
+            </label><br><br>
+        </fieldset>
+
+        <input type="submit" value="Send message">
+    </form>
+
+</body>
+</html>
