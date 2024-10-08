@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bai2d.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>FORM ĐỊNH DẠNG</h2>
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" name="name">
+
+        <label>Chọn</label>
+        <input type="radio" id="background" name="option" value="background">
+        <label for="background" style="display: inline;">Background</label>
+        <input type="radio" id="font" name="option" value="font">
+        <label for="font" style="display: inline;">Font</label>
+
+        <label for="color">Chọn màu</label>
+        <select id="color" name="color">
+            <option>Chọn màu ...</option>
+        </select>
+
+        <div class="buttons">
+            <button>Đổi màu</button>
+            <button>Cancel</button>
+        </div>
+
+        <div class="description">
+            you can direct link the hyperlink with the file if you know the address but this is limited by the browser. eg. if pdf reader is installed on the client then the pdf will not be downloaded instead it will be shown. A good solution would be to have a seperate
+            page for downloading files. just pass filename in querystring and in the pageload event just output the file in response stream. This way you can use url say dwnld.aspx?filename.ext
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bai2b.css">
+    <script src="../JS/bai2b.js"></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <h2>PHÉP TÍNH CƠ BẢN</h2>
+        <label>Nhập số thứ 1</label>
+        <input type="text" id="num1"><span class="required">(*)</span>
+        <label>Nhập số thứ 2</label>
+        <input type="text" id="num2"><span class="required">(*)</span>
+        <div>
+            <input type="button" value="Cong" onclick="calculate('add')">
+            <input type="button" value="Tru" onclick="calculate('subtract')">
+            <input type="button" value="Nhan" onclick="calculate('multiply')">
+            <input type="button" value="Chia" onclick="calculate('divide')">
+            <input type="button" value="Chia dư" onclick="calculate('modulus')">
+        </div>
+        <div class="result">
+            <label>Kết quả</label>
+            <input type="text" id="result" readonly>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

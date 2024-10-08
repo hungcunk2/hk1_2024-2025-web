@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #e7eef6;
+}
+
+.prompt-box {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #e7eaf2;
+    border: 1px solid #999;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgb(40, 101, 233);
+    font-weight: bold;
+}
+
+.buttons {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
+
+.buttons button:focus {
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-actions button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-actions .ok-btn {
+    width: 80px;
+    border: 1px solid black;
+    color: black;
+}
+
+.form-actions .cancel-btn {
+    width: 80px;
+    border: 1px solid black;
+    color: black;
+}
+
+.output-container {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.student-table th,
+.student-table td {
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.student-table th {
+    background-color: #f2f2f2;
+}
+
+.student-table caption {
+    font-size: 18px;
+    font-weight: bold;
+    color: pink;
+    margin-bottom: 10px;
+}

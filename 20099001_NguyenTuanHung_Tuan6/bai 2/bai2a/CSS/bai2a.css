@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    border: 1px solid #000;
+    background-color: #e0e0e0;
+    margin: 20px;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    color: #ff9999;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    background-color: #ccc;
+    border: 1px solid #000;
+}

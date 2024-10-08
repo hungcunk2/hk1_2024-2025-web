@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container label {
+    display: block;
+    margin-top: 10px;
+}
+
+.container input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.container input[type="radio"] {
+    margin-top: 10px;
+}
+
+.container select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.container button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.container .buttons {
+    text-align: center;
+}
+
+.container .buttons button {
+    margin: 5px;
+}
+
+.container .description {
+    margin-top: 20px;
+    font-size: 12px;
+}

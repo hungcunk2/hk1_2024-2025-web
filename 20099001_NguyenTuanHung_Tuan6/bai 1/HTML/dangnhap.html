@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Sinh Viên</title>
+    <link rel="stylesheet" href="../CSS/bai1.css">
+    <script src="../JS/bai1.js"></script>
+
+</head>
+
+<body>
+
+    <div class="form-container">
+        <div class="prompt-box">
+            <button class="close-btn">X</button>
+
+            <div class="buttons">
+                <button type="button">OK</button>
+                <button type="button">Cancel</button>
+            </div>
+            <h3>Explorer User Prompt</h3>
+            <form id="studentForm">
+                <div class="form-group" id="stepMSSV">
+                    <div>Script Prompt:</div>
+                    <label for="studentId">Nhap ma so SV</label>
+                    <input type="text" id="studentId" name="studentId" required>
+                </div>
+                <div class="form-group" id="stepName" style="display: none;">
+                    <label for="fullName">Nhap ho ten SV</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group" id="stepClass" style="display: none;">
+                    <label for="class">Nhap lop</label>
+                    <input type="text" id="class" name="class" required>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="output-container" id="outputContainer" style="display: none;">
+            <table class="student-table" id="studentTable">
+                <caption>DANH SÁCH SINH VIÊN</caption>
+                <thead>
+                    <tr>
+                        <th>MSSV</th>
+                        <th>Tên</th>
+                        <th>Lớp</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody">
+                    <!-- Sinh viên sẽ được thêm tại đây -->
+                </tbody>
+            </table>
+        </div>
+
+
+
+</body>
+
+</html>
