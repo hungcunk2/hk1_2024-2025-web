@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title>Restaurant Web Page</title>
+    <style>
+        body {
+            background-color: #2c3e50;
+            color: white;
+        }
+        
+        .btn-pink {
+            background-color: #ff69b4;
+            border-color: #ff69b4;
+            color: white;
+            font-size: 1.5em;
+            padding: 15px 30px;
+        }
+        
+        .nav-item {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .btn-dark-blue {
+            background-color: #34495e;
+            color: white;
+            border: 2px solid white;
+            font-size: 1.5em;
+            padding: 15px 30px;
+        }
+        
+        .hero-text {
+            font-size: 3em;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+        
+        .img-fluid {
+            width: 600px;
+        }
+        
+        .description {
+            margin-top: 50px;
+            text-align: left;
+            font-size: 1.2em;
+        }
+        
+        .dropdown-menu {
+            background-color: #2c3e50;
+            border-color: #2c3e50;
+        }
+        
+        .dropdown-item {
+            color: white;
+        }
+        
+        .dropdown-item:hover {
+            background-color: #ff69b4;
+            color: white;
+        }
+        
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1.5em;
+        }
+        
+        .button-container>button {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand " href="#">Restaurant Template</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="blockDemosDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Block Demos 1
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="blockDemosDropdown1">
+                            <a class="dropdown-item" href="#">Block Demo 1.1</a>
+                            <a class="dropdown-item" href="#">Block Demo 1.2</a>
+                            <a class="dropdown-item" href="#">Block Demo 1.3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="blockDemosDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Block Demos 2
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="blockDemosDropdown2">
+                            <a class="dropdown-item" href="#">Block Demo 2.1</a>
+                            <a class="dropdown-item" href="#">Block Demo 2.2</a>
+                            <a class="dropdown-item" href="#">Block Demo 2.3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="siteTemplatesDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Site Templates 1
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="siteTemplatesDropdown1">
+                            <a class="dropdown-item" href="#">Site Template 1.1</a>
+                            <a class="dropdown-item" href="#">Site Template 1.2</a>
+                            <a class="dropdown-item" href="#">Site Template 1.3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="siteTemplatesDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Site Templates 2
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="siteTemplatesDropdown2">
+                            <a class="dropdown-item" href="#">Site Template 2.1</a>
+                            <a class="dropdown-item" href="#">Site Template 2.2</a>
+                            <a class="dropdown-item" href="#">Site Template 2.3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Download Now!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container text-center">
+        <h1 class="hero-text">Restaurant</h1>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../img/pizzas.jpg" alt="Pizza" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <div class="button-container">
+                    <button class="btn btn-pink mb-2">New Menu</button>
+                    <button class="btn btn-dark-blue mb-2">Terrace</button>
+                </div>
+                <div class="description">
+                    <p>The restaurant area allowed to accommodate a banquet hall, and a children hall, where children and their parents can fully enjoy the most interesting animation programs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
