@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+
+/* Toàn bộ trang */
+
+body {
+    height: 600px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #66b3ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    text-shadow: 1px 0px 8px black;
+    float: right;
+    padding: 5px;
+}
+
+nav {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px dashed white;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed white;
+    color: white;
+}
+
+.form-container {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.form-container label {
+    width: 50%;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 30px;
+    color: white;
+}
+
+.form-container select {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 18px;
+    width: 40%;
+}
+
+.button {
+    float: left;
+    width: 46%;
+    margin-left: 54%;
+}
+
+.form-container input[type="submit"],
+.form-container input[type="reset"] {
+    padding: 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.form-container input[type="submit"]:hover,
+.form-container input[type="reset"]:hover {
+    background-color: #e673c3;
+}
+
+
+/* Image Container */
+
+.image-container {
+    width: 45%;
+}
+
+.image-container img {
+    width: 95%;
+    border-radius: 10px;
+}
+
+.content2 {
+    color: blue;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content2 h1 {
+    text-shadow: 1px 3px 1px blue;
+}
+
+.content2 p {
+    margin-left: 20px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin: 5px 0;
+}
