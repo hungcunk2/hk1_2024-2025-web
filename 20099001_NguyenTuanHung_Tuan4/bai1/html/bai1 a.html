@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .full-height {
+            height: 100vh;
+            object-fit: cover;
+        }
+        
+        .grid-row {
+            height: 50vh;
+        }
+        
+        .full-width {
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 p-0">
+                <img src="../img/Market Stall.jpg" class="img-fluid full-height" alt="Market Stall">
+            </div>
+            <div class="col-md-8 p-0">
+                <div class="row grid-row">
+                    <div class="col-md-6 p-0">
+                        <img src="../img/Raspberries.jpg" class="img-fluid full-width" alt="Raspberries">
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <img src="../img/Apples on Tree.jpg" class="img-fluid full-width" alt="Apples on Tree">
+                    </div>
+                </div>
+                <div class="row grid-row">
+                    <div class="col-md-6 p-0">
+                        <img src="../img/Lemon on Tree.jpg" class="img-fluid full-width" alt="Lemons on Tree">
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <img src="../img/CF shop.jpg" class="img-fluid full-width" alt="Cafe and Apples">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
