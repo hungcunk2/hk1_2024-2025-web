@@ -1,0 +1,88 @@
+.p1 { 
+    font-weight: bolder;
+    font-size: 50px;
+    color: red;
+}
+
+h1 { 
+    text-align: center; 
+    font-family: Arial; 
+}
+
+h2 { 
+    color: #440000; 
+    text-align: center;
+    font-family: Arial Black, Arial, Helvetica;
+}
+
+/* Border Styles Example */
+.b1 { border-style: none; }
+.b2 { border-style: hidden; }
+.b3 { border-style: dotted; }
+.b4 { border-style: dashed; }
+.b5 { border-style: solid; }
+.b6 { border-style: double; }
+.b7 { border-style: groove; }
+.b8 { border-style: ridge; }
+.b9 { border-style: inset; }
+.b10 { border-style: outset; }
+
+pre {
+    height: 80px;
+    width: 120px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: palegreen;
+    border-width: 5px;
+    box-sizing: border-box;
+}
+
+/* Border Color Examples */
+.border-color-1 {
+    border: 5px solid red;
+}
+
+.border-color-2 {
+    border-style: solid;
+    border-color: red yellow green blue;
+    border-width: 5px;
+}
+
+/* Border Radius Examples */
+.rounded-1 {
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: lightblue;
+}
+.rounded-2 {
+    border: 5px solid black;
+    border-radius: 10% 30% 50% 70%;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: lightcoral;
+}
+.rounded-3 {
+    border: 5px solid black;
+    border-radius: 10% / 50%;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: lightgreen;
+}
+
+/* Border Radius with Elliptical Shape */
+#vd {
+    border-top-left-radius: 50%;
+    border: black 10px double;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

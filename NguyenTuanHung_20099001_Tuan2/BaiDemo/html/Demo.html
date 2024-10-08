@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chu</title>
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="../css/stylecss.css">
+    <style type="text/css">
+        #p2{
+            font-family: initial;
+            font-size: 10px;
+        }
+    </style>
+    <!-- Internal Style Sheet -->
+    <style type="text/css">
+        hr { color: sienna; }
+        p { margin-left: 20px; }
+        body { background-image: url("../img/back40.gif"); }
+        /*Selectors */
+        /* CSS Element Selector */
+        p { text-align: center; color: red; }
+
+        /* ID Selector */
+        #p2 { text-align: center; color: blue; }
+
+        /* Class Selector */
+        .center { text-align: center; color: green; }
+
+        /* Grouping Selector */
+        h1, h2, p { text-align: center; color: orange; }
+
+        /* Match relative to element placement */
+        p a { text-decoration: underline; }
+
+        /* Universal selector */
+        p * { color: black; }
+
+        /* Adjacent sibling selector */
+        img + .link { float: right; }
+
+        /* Child selector */
+        p > .error { font-size: 8px; color: red; }
+
+        /* Attribute selector */
+        img[alt~=logo] { border: none; }
+
+        /* Multiple class selector */
+        .class1.class2 { background-color: yellow; color: blue; }
+
+    </style>
+
+</head>
+<body>
+    <p class="p1">Quê hương tôi </p> <!-- styles.css -->
+    <p id="p2">Đất nước tôi </p>
+    <p class="center">Special </p>
+    <h1>This is an H1 heading</h1><!-- styles.css -->
+    <h2>This is an H2 heading</h2><!-- styles.css -->
+
+    <!-- Inline Styles -->
+    <p style="color: sienna; margin-left: 20px;">
+        This is a paragraph with inline style.
+    </p>
+    <!-- Example of Match relative to element placement -->
+    <p>This is a paragraph with a <a href="#">link</a> inside it.</p>
+
+    <!-- Example of Adjacent sibling selector -->
+    <img src="../img/image.jpg" alt="example image">
+    <div class="link">This div is floated right next to the image.</div>
+
+    <!-- Example of Child selector -->
+    <p>This is a paragraph with a <span class="error">direct child span with class error</span>.</p>
+
+    <!-- Example of Attribute selector -->
+    <img src="../img/logo.png" alt="company logo" width="5%">
+
+    <!-- Example of Multiple class selector -->
+    <div class="class1 class2">This div has both class1 and class2 applied.</div>
+    <hr>
+    <!-- Border Style Examples -->
+    <pre class="b1">none</pre>
+    <pre class="b2">hidden</pre>
+    <pre class="b3">dotted</pre>
+    <pre class="b4">dashed</pre>
+    <pre class="b5">solid</pre>
+    <pre class="b6">double</pre>
+    <pre class="b7">groove</pre>
+    <pre class="b8">ridge</pre>
+    <pre class="b9">inset</pre>
+    <pre class="b10">outset</pre>
+    <!-- Border Color Examples -->
+    <div class="border-color-1">Red Border</div>
+    <div class="border-color-2">Multi-color Border</div>
+    <!-- Border Radius Examples -->
+    <div class="rounded-1">Rounded Border 1</div>
+    <div class="rounded-2">Rounded Border 2</div>
+    <div class="rounded-3">Rounded Border 3</div>
+    <!-- Elliptical Border Radius Example -->
+    <div id="vd"></div>
+
+    <hr>
+</body>
+</html>

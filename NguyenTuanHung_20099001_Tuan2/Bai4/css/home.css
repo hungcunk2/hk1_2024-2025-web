@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: auto;
+    height: 800px;
+    font-size: 13px;
+}
+
+#header {
+    width: 100%;
+    height: auto;
+}
+
+#header img {
+    float: right;
+    margin-right: 15px;
+}
+
+#the-body {
+    float: left;
+    width: auto;
+    min-height: 100vh;
+    border-top: 2px solid rgb(235, 132, 6);
+    display: flex;
+    flex-direction: row;
+}
+
+#the-body img {
+    height: 800px;
+    width: 160px;
+    position: relative;
+}
+
+#the-body .links ul {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    z-index: 1;
+}
+
+#the-body .links ul a {
+    display: block;
+    padding: 10px 0;
+    margin-left: 10px;
+    text-decoration: none;
+    border-bottom: 2px dashed rgb(246, 121, 3);
+    color: purple;
+}
+
+#the-body .links ul a:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    color: rgb(7, 253, 253);
+}
+
+.content {
+    width: 100%;
+}
+
+.content .content-about {
+    height: 750px;
+    border-bottom: 2px solid rgb(235, 132, 6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+    margin: 20px 10px;
+}
+
+.about .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(246, 121, 3);
+}
+
+.about .text-about p {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
+    width: 250px;
+    height: auto;
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(246, 121, 3);
+    float: right;
+}
+
+.menu .heading-menu {
+    margin: 15px 0;
+    color: rgb(246, 121, 3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+    margin-bottom: 15px;
+}
+
+.menu ul li {
+    margin-left: 35px;
+    color: brown;
+}
+
+.footer {
+    height: 4px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 18px;
+    padding: 5px 0;
+    color: rgb(246, 121, 3);
+}
